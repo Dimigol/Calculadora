@@ -8,6 +8,7 @@
 </head>
 <body>
     <h1>Calculadora</h1>
+    <button id="theme-toggle">🌙 Tema</button>
     <div class="calculator">
         <input type="text" id="display" disabled>
         <div class="box-buttons">
@@ -31,6 +32,10 @@
             <button class="btn-result" onclick="calculate()">=</button>
         </div>
     </div>
+    <div class="history">
+    <h2>Histórico</h2>
+    <ul id="historyList"></ul>
+</div>
     <script src="script.js"></script>
 </body>
 </html>
